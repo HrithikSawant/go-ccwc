@@ -1,7 +1,6 @@
-# The Challenge - Building `ccwc`
+# Building `ccwc` Program
 
 `ccwc` is a CLI tool that reads input files or standard input and provides a summary of the number of bytes, characters, words, and lines. It functions similarly to the Linux `wc` command, commonly used for text processing.
-
 
 
 ## Getting Started
