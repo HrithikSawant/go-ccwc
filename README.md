@@ -1,12 +1,13 @@
 # Building `ccwc` Program
 
+![ccwc Banner](assets/banner.png)
+
 `ccwc` is a CLI tool that reads input files or standard input and provides a summary of the number of bytes, characters, words, and lines. It functions similarly to the Linux `wc` command, commonly used for text processing.
 
 
 ## Getting Started
 
 Follow the steps below to set up, build, and test the application:
-
 
 ---
 
@@ -19,11 +20,11 @@ ccwc [flags]
 
 ### Flags
 
-| Flag                 | Description                            |
-|----------------------|----------------------------------------|
+| Flag                 | Description                           |
+|----------------------|---------------------------------------|
 | `-c`, `--bytes`      | Count only bytes                      |
 | `-m`, `--chars`      | Count only characters                 |
-| `-f`, `--file`       | Specify the path to the input file     |
+| `-f`, `--file`       | Specify the path to the input file    |
 | `-h`, `--help`       | Display help information              |
 | `-l`, `--lines`      | Count only lines                      |
 | `-w`, `--words`      | Count only words                      |
