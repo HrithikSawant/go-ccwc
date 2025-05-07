@@ -70,12 +70,12 @@ var (
 		Short: "A command-line utility to count characters, words, and lines in a file",
 		Long: `ccwc is a CLI tool that reads input files or standard input and provides
 a summary of the number of characters, words, and lines. It functions similarly
-to the Linux 'wc' command, which is commonly used for text processing.
+to the Unix wc command, which is commonly used for text processing.
 
 Examples of usage:
-  ccwc file.txt        # Count characters, words, and lines in 'file.txt'
-  ccwc -l file.txt     # Count only the lines in 'file.txt'
-  echo "Hello World" | ccwc # Process input from a pipe and output counts.`,
+  ccwc file.txt        		# Show lines, words, and character counts for 'file.txt'
+  ccwc -l file.txt     		# Count only number of lines in 'file.txt'
+  echo "Hello World" | ccwc 	# Process input from a pipe and output counts.`,
 		// Uncomment the following line if your bare application
 		// has an action associated with it:
 		// Run: func(cmd *cobra.Command, args []string) { },
